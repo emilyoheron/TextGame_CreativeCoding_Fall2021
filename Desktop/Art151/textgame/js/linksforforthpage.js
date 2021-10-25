@@ -1,6 +1,3 @@
-
-//shuffle an array of links
-
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
     while (currentIndex != 0 ){
@@ -14,25 +11,13 @@ function shuffle(array) {
 
 //run the function
 
-arr = ["2ndpage.html", "3rdpage.html", "4thpage.html"];
+arr = ["wetthebed.html", "wokeUpInTime.html"];
 shuffle(arr);
 console.log(arr);
 
 //set attributes
-let link1 = document.getElementById('link1');
-let link2 = document.getElementById('link2');
-let link3 = document.getElementById('link3');
+let one = document.getElementById('one');
+let two = document.getElementById('two');
 
-link1.setAttribute("href", arr[0])
-link2.setAttribute("href", arr[1])
-link3.setAttribute("href", arr[2])
-
-
-
-
-
-
-
-
-
-
+one.setAttribute("href", arr[0]);
+two.setAttribute("href", arr[1]);
